@@ -1,0 +1,420 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* html{ */
+    /* overflow: hidden; */
+    /* height: 100%;
+    width: 100%; */
+/* } */
+        /* HEADER NAVBAR */
+.nav{
+    padding: 20px;
+    background-color: white;
+}
+.hamburger{
+    display: none;
+}
+
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    
+    position: relative;
+    left: 900px;
+    bottom: 15px;
+
+}
+li a{
+list-style-type: none;
+  padding: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+li a:hover{
+    border: solid black;
+}
+               /* FIRST DIV */
+.box2{
+    background-color: hsl(256, 26%, 20%);
+    height: 500px;
+
+}
+.image2{
+   position: absolute;
+   top: 115px;
+   bottom: 20px;
+   left: 820px;
+   width: 450px;
+   height: 600px;
+}
+.hr1{
+ position: relative;
+ top: 120px;
+ left:300px;
+ width: 150px;
+}
+.heading1{
+  color: white;
+  position: relative;
+  left: 300px;
+  top: 150px;
+  font-size: 50px;
+}
+.paragraph1{
+  color: white;
+  position: absolute;
+  left: 300px;
+    bottom: 220px;
+
+}
+.button1{
+  position: relative;
+  left: 300px;
+  bottom: 380px;
+  background-color: transparent;
+  border: 2px solid white;
+  height: 40px;
+  width: 150px;
+  color: #ffffff;
+}
+.image3{
+    position: relative;
+    left: 1000px;
+    bottom: 250px;
+    
+}
+.image4{
+    position: relative;
+    right: 450px;
+    top: 80px
+}            
+     /* END OF FIRST DIV */
+
+        /* SECOND DIV */
+
+.heading2{
+    font-size: 80px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-gap: 150px;
+}
+.box3{
+    padding: 150px;
+}
+.hr2{
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+.paragraph2,.paragraph3,.paragraph4{
+    position: relative;
+    left: 15px
+}
+.heading3, .heading4,.heading5{
+ font-size: 30px;
+ position: relative;
+ left: 20px;
+}
+.imagesnappy,.imageaffordable,.imagepeople{
+    position: relative;
+    left: 30px;
+}
+
+          /* END OF SECOND DIV */
+
+          /* THIRD DIV */
+
+.box4{
+    background-color: hsl(256, 26%, 20%);
+    height: 250px;
+    width: 1000px;
+    padding: auto;
+    margin: auto;
+}
+
+.heading6{
+  color: white;
+  padding: 60px;
+  font-size: 50px;
+}
+.button2{
+  background-color: transparent;
+  border: 2px solid white;
+  height: 40px;
+  width: 150px;
+  color: white;
+  position: relative;
+  bottom: 350px;
+  left: 760px ;
+}
+           /* END OF THIRD DIV */
+
+        /* LAST DIV AND FOOTER */
+
+.dropdown{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 100px;
+}
+.box5{
+    background-color: hsl(0, 0%, 98%);
+    padding: 40px 20px 30px 10px;
+    
+}
+.hr3{
+  position: relative;
+  top:40px;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.image5{
+    position: relative;
+    left: 500px;
+    bottom: 240px;
+    width: 350px;
+    height:260px ;
+}
+h4{
+    color: grey;
+}
+.social{
+    display: flex;
+    margin-left: 1100px;
+    margin-bottom: -5px;
+
+   
+}
+.mobilefooter{
+    display: none;
+}
+.desktopfooter{
+        position: relative;
+        top:220px;
+        right: 150px
+
+}
+.logo2{
+    margin-left: -500px;
+    margin-bottom: -20px
+}
+  
+            /* MEDIA QUERY */
+
+
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+.body{
+   overflow-x: hidden;
+}
+            /* HEADER */
+.nav {
+    display: flex;
+    list-style-type: none;
+    /* background: red; */
+}
+.navbar{
+     display: none;
+}      
+.hamburger{
+    display: flex;
+    margin-left: 50% 
+}
+        /* FIRST DIV */
+
+.box2{
+    background-color: hsl(256, 26%, 20%);
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+        
+}
+.image2{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-top: -45px; 
+    height: 100%;
+}
+.heading1{
+    color: white;
+    position: relative;
+    left: 0px;
+    z-index: 18;
+    margin-top: 200%;
+    top: 0px;
+    font-size: 200%;
+    text-align: center;
+}
+.paragraph1{
+    color: white;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+        
+}
+.button1{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 40px;
+    width: 180px;
+    box-align: center;
+    margin-left: 110px;
+    color: white;
+ }
+.image4{
+    position: relative;
+    right: 0px;
+    top: 0px
+ }
+           /* END OF FIRST DIV */
+            
+           /* SECOND DIV */
+
+
+.box3{
+    padding: 0px;
+}
+.grid{
+ display: grid;
+ grid-template-columns: 25%;
+ grid-row-gap: 50px;
+ margin-left: 150px;
+}
+.hr2{
+    position: relative;
+    top: 0px;
+    left:0px;
+    width: 200px;
+    margin-left: 110px;
+}
+.heading2{
+    font-size: 50px;
+   text-align: center;
+}
+         /* END OF SECOND DIV */
+        
+        /* THIRD DIV */
+.box4{
+    background-color: hsl(256, 26%, 20%);
+    height: 400px;
+    width: 70%;
+    padding-top: 20px;
+    margin: auto;
+}
+ .imagesnappy,.imageaffordable,.imagepeople{
+    position: relative;
+    left: -5px;
+}
+.heading3, .heading4,.heading5{
+    font-size: 20px;
+     position: relative;
+     left: 0px;
+     text-align: center;
+     margin-left: 0px;
+ }
+.paragraph2,.paragraph3,.paragraph4{
+    position: relative;
+    left: -100px;
+    text-align: center;
+    width: 500%;
+    margin-left: 0px;
+}
+        /* END OF THIRD DIV */
+
+        /* FOURTH DIV */
+
+.heading6{
+    color: #ffffff;
+    padding: 0px;
+    font-size: 28px;
+    text-align: center;
+    margin: 50px;
+}
+.button2{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 0px;
+    left: 0px ;
+}
+ 
+           /* LAST DIV/FOOTER */
+
+.dropdown{
+    display: grid;
+    grid-template-columns: 25%;
+    margin-left: 150px;
+    
+}
+.logo2{
+    margin-left: 100px
+}
+.dropdown1,.dropdown2,.dropdown3,.dropdown4{
+    text-align: center;
+}
+.company,.help, .contact,.others{
+    margin-top: 50px;
+}
+.social{
+    /* display: flex; */
+    margin-left: 100px;
+    margin-bottom: -20px
+}
+.desktopfooter{
+    display: none;
+}
+.mobilefooter{
+
+}
+.image3, .image4{
+ display: none;
+}
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
